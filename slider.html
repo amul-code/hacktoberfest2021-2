@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <!-- Owl-carousel CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  {% comment %} <link rel="stylesheet" href="css/style.css">
+   {% endcomment %}
+   <style>.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 20rem;
+    left: -95rem;
+}
+.carousel-indicators li{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+.carousel-caption{
+    top: 18rem;
+    text-align: left;
+}
+.carousel-caption h1{
+    font-size: 4.5rem;
+    font-family: 'Balsamiq Sans', cursive;
+    word-spacing: 0.1rem;
+}
+.carousel-caption p{
+    color: #fff;
+    font-size: 1.5rem;
+    max-width: 60rem;
+}
+.carousel-caption button{
+    background: #82589F;
+    color: #fff;
+}
+.second_row button{
+    background: #fed330;
+    color: #000;
+}
+.carousel-caption button, .second_row button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin: 2rem 1rem 0 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+    transition: .5s;
+}
+.carousel-caption button:hover{
+    background: #fff200;
+    color: #000;
+}
+
+.second_row button:hover{
+    background: #82589F;
+    color: #fff;
+}</style>
+</head>
+
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner1.jpg" class="d-block w-100" alt="banner1">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. </p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner2.jpg" class="d-block w-100" alt="banner2">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner3.jpg" class="d-block w-100" alt="banner3">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner4.jpg" class="d-block w-100" alt="banner4">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner5.jpg" class="d-block w-100" alt="banner5">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner6.jpg" class="d-block w-100" alt="banner6">
+          <div class="carousel-caption">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, nobis Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <button>Learn More </button>
+            <button>Learn More </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+   <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+  
+</div>
+  </header>
+  <script>
+    const changePic = (e)=>{
+        document.getElementById("main_image").src = e;
+    }
+    
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("carousel-item");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+ <!-- Bootstrap CDN  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
